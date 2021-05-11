@@ -1,0 +1,31 @@
+{
+  "version": 1.2,
+  "tags": [
+    {
+      "name": "poc-cta",
+      "path": "./src/components/cta/cta.tsx",
+      "description": "",
+      "attributes": [
+        {
+          "name": "text",
+          "type": "string",
+          "description": "",
+          "defaultValue": "'Default'",
+          "required": false
+        },
+        {
+          "name": "variant",
+          "type": "string",
+          "description": "",
+          "defaultValue": "\"Primary\"",
+          "required": false
+        }
+      ],
+      "events": [],
+      "methods": [],
+      "slots": [],
+      "cssProperties": [],
+      "cssParts": []
+    }
+  ]
+}
