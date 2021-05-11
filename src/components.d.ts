@@ -6,36 +6,36 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface SmgCta {
+    interface PocCta {
         "text": string;
         "variant": string;
     }
 }
 declare global {
-    interface HTMLSmgCtaElement extends Components.SmgCta, HTMLStencilElement {
+    interface HTMLPocCtaElement extends Components.PocCta, HTMLStencilElement {
     }
-    var HTMLSmgCtaElement: {
-        prototype: HTMLSmgCtaElement;
-        new (): HTMLSmgCtaElement;
+    var HTMLPocCtaElement: {
+        prototype: HTMLPocCtaElement;
+        new (): HTMLPocCtaElement;
     };
     interface HTMLElementTagNameMap {
-        "poc-cta": HTMLSmgCtaElement;
+        "poc-cta": HTMLPocCtaElement;
     }
 }
 declare namespace LocalJSX {
-    interface SmgCta {
+    interface PocCta {
         "text"?: string;
         "variant"?: string;
     }
     interface IntrinsicElements {
-        "poc-cta": SmgCta;
+        "poc-cta": PocCta;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "poc-cta": LocalJSX.SmgCta & JSXBase.HTMLAttributes<HTMLSmgCtaElement>;
+            "poc-cta": LocalJSX.PocCta & JSXBase.HTMLAttributes<HTMLPocCtaElement>;
         }
     }
 }

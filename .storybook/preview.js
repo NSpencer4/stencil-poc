@@ -5,7 +5,7 @@ import {
 } from '@storybook/web-components';
 
 import customElements from '../custom-elements.json';
-import 'src/theme/theme.css';
+import '../src/theme/theme.css';
 import { extractComponentDescription, setStencilDocJson, extractArgTypes } from '@pxtrn/storybook-addon-docs-stencil';
 import docJson from '../docs.json';
 if(docJson) setStencilDocJson(docJson);

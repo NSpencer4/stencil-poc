@@ -1,5 +1,5 @@
 {
-  "timestamp": "2021-05-11T03:19:04",
+  "timestamp": "2021-05-11T14:33:30",
   "compiler": {
     "name": "@stencil/core",
     "version": "2.5.2",
@@ -10,7 +10,7 @@
       "filePath": "./src/components/cta/cta.tsx",
       "encapsulation": "shadow",
       "tag": "poc-cta",
-      "readme": "# poc-cta\n\n\n",
+      "readme": "# poc-cta\r\n\r\n\r\n\r",
       "docs": "",
       "docsTags": [],
       "usage": {},

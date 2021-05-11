@@ -20,7 +20,7 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
-    "storybook": "start-storybook -p 6006 -s dist/",
+    "storybook": "npm run build --docs && start-storybook -p 6006 -s dist/",
     "build-storybook": "npm run build --docs && build-storybook"
   },
   "dependencies": {
